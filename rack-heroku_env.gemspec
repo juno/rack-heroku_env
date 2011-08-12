@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = version
   s.authors     = ["Junya Ogura"]
   s.email       = ["junyaogura@gmail.com"]
-  s.homepage    = "http://github.com/juno/rack-heroku_env"
+  s.homepage    = "https://github.com/juno/rack-heroku_env"
   s.summary     = %q{rack middleware for exposing Heroku environment variables}
   s.description = %q{rack middleware for exposing Heroku environment variables}
 
