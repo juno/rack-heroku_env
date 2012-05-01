@@ -1,6 +1,8 @@
 rack-heroku_env
 ====
 
+[![Build Status](http://travis-ci.org/juno/rack-heroku_env.png)](http://travis-ci.org/juno/rack-heroku_env)
+
 A gem that provides exposing Heroku environment variables as HTTP response headers as rack middleware.
 
 ![Screenshot](http://farm7.static.flickr.com/6072/6034883614_f94d8d6d61_b.jpg)
