@@ -7,7 +7,9 @@ A gem that provides exposing Heroku environment variables as HTTP response heade
 
 ![Screenshot](http://farm7.static.flickr.com/6072/6034883614_f94d8d6d61_b.jpg)
 
-`Rack::HerokuEnv` exposes these variables:
+`Rack::HerokuEnv` exposes any `HTTP_X_HEROKU*` as `X-Heroku-*`.
+
+For example:
 
 * `HTTP_X_HEROKU_DYNOS_IN_USE` as `X-Heroku-Dynos-In-Use`
 * `HTTP_X_HEROKU_QUEUE_DEPTH` as `X-Heroku-Queue-Depth`
