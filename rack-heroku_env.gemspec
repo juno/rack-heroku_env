@@ -20,6 +20,6 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'rack', '~> 1.1'
 
-  s.add_development_dependency 'rake', '~> 0.9.2'
+  s.add_development_dependency 'rake', '~> 10.0'
   s.add_development_dependency 'rspec', '~> 2.6.0'
 end
