@@ -2,7 +2,6 @@ language: ruby
 rvm:
   - 2.0.0
   - 2.1.1
-  - ree
   - jruby-head-d20
   - jruby-head-d21
   - rbx-18mode
