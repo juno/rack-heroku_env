@@ -3,4 +3,4 @@
 Gemfile.lock
 coverage
 pkg/*
-.rvmrc
+vendor/bundle
