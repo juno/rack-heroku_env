@@ -5,5 +5,7 @@ rvm:
   - ree
   - jruby-18mode
   - jruby-19mode
+  - jruby-head-d20
+  - jruby-head-d21
   - rbx-18mode
   - rbx-19mode
