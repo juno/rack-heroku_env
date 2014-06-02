@@ -3,7 +3,12 @@ Changelog
 
 dev
 ----
-[full changelog](http://github.com/juno/rack-heroku_env/compare/v0.0.1...master)
+[full changelog](http://github.com/juno/rack-heroku_env/compare/v0.1.1...master)
+
+0.1.1 / 2014-06-02
+----
+
+* Update rspec to 3.0.0 (juno)
 
 0.1.0 / 2012-05-03
 ----
