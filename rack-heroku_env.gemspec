@@ -1,4 +1,3 @@
-# -*- encoding: utf-8 -*-
 lib = File.expand_path("../lib/rack/heroku_env.rb", __FILE__)
 version = File.read(lib)[/^\s*VERSION\s*=\s*(['"])(\d\.\d\.\d+)\1/, 2] #'# defeat messing with highlighting...
 
@@ -21,7 +20,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'rack', '~> 1.1'
 
   s.add_development_dependency 'rake', '~> 10.3'
-  s.add_development_dependency 'rspec', '~> 2.14.0'
+  s.add_development_dependency 'rspec', '~> 3.0.0'
   s.add_development_dependency 'coveralls', '~> 0.7.0'
   s.add_development_dependency 'simplecov', '~> 0.8.2'
 end

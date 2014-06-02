@@ -45,4 +45,4 @@ Testing
 
     $ gem install bundler
     $ bundle install
-    $ bundle exec rspec spec/rack-heroku_env_spec.rb
+    $ bundle exec rake

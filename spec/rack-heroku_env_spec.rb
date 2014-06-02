@@ -14,26 +14,26 @@ describe Rack::HerokuEnv do
   before { _, @headers, _ = Rack::HerokuEnv.new(app).call(env) }
 
   it 'adds X-Heroku-Dynos-In-Use response header' do
-    @headers.should be_include('X-Heroku-Dynos-In-Use')
+    expect(@headers).to be_include('X-Heroku-Dynos-In-Use')
   end
 
   it 'adds X-Heroku-Queue-Depth response header' do
-    @headers.should be_include('X-Heroku-Queue-Depth')
+    expect(@headers).to be_include('X-Heroku-Queue-Depth')
   end
 
   it 'adds X-Heroku-Queue-Wait-Time response header' do
-    @headers.should be_include('X-Heroku-Queue-Wait-Time')
+    expect(@headers).to be_include('X-Heroku-Queue-Wait-Time')
   end
 
   it 'sets HTTP_X_HEROKU_DYNOS_IN_USE value to response header' do
-    @headers['X-Heroku-Dynos-In-Use'].should eq('1')
+    expect(@headers['X-Heroku-Dynos-In-Use']).to eq('1')
   end
 
   it 'sets HTTP_X_HEROKU_QUEUE_DEPTH value to response header' do
-    @headers['X-Heroku-Queue-Depth'].should eq('2')
+    expect(@headers['X-Heroku-Queue-Depth']).to eq('2')
   end
 
   it 'sets HTTP_X_HEROKU_QUEUE_WAIT_TIME value to response header' do
-    @headers['X-Heroku-Queue-Wait-Time'].should eq('3')
+    expect(@headers['X-Heroku-Queue-Wait-Time']).to eq('3')
   end
 end
